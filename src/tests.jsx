@@ -1,4 +1,3 @@
-import Quotes from "./quotes";
 import Button from "./button";
 import './tests.css'
 
@@ -18,8 +17,6 @@ function Tests(){
                 joint pain, and circulation problems most commonly associated with 
                 peripheral neuropathy.
             </p>
-
-            <Quotes/>
 
             <Button text="Setup Appointment" onClick={() => alert('Button clicked!')} />
 
